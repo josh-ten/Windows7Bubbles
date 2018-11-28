@@ -7,7 +7,7 @@ class Bubble {
         this.size = random(60,180);
         this.hue = random(255);
         this.hueNoise = random(1000);
-        this.img = loadImage("bubble.png");
+        this.img = loadImage("http://img03.deviantart.net/06be/i/2011/355/6/7/sonic_3_hd_bubble_shield_animation_test_by_timewarp33-d4jt671.png");
     }
 
     update() {

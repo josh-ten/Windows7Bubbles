@@ -10,13 +10,14 @@ function setup() {
 	for (var i = 0; i < 10; i++) {
 		bubbles.push(new Bubble(random(width), random(height), random(-10, 10), random(-10, 10)));
 	}
-	ship = new Ship(width/2, height/2);
+	// ship = new Ship(width/2, height/2);
 
 	xoff = 0;
 }
 
 function draw() {
-	background(averageHue, 80, 10);
+	// background(averageHue, 80, 10);
+	background(0);
 	var windForce = wind();
 	var total = 0;
 	for (var i = 0; i < bubbles.length; i++) {
